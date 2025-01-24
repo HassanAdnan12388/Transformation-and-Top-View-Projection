@@ -20,11 +20,11 @@ This project focuses on image and video transformation using SuperPoint and Supe
 
 # Model Architecture
 **SuperPoint**
--A neural network model for keypoint detection and description.
--Outputs keypoints and their associated descriptors, used for image matching.
+- A neural network model for keypoint detection and description.
+- Outputs keypoints and their associated descriptors, used for image matching.
 **SuperGlue**
 - A model that performs matching of keypoints across images based on SuperPoint outputs.
--Calculates correspondences and matches keypoints using a graph neural network approach.
+- Calculates correspondences and matches keypoints using a graph neural network approach.
 **Homography Calculation**
 - Using the matched keypoints from SuperPoint and SuperGlue, the homography matrix is computed using RANSAC to project one image onto another.
 
