@@ -5,13 +5,13 @@ Image Transformation and Projection (SuperPoint and SuperGlue)
 # Overview
 This project focuses on image and video transformation using SuperPoint and SuperGlue models for keypoint extraction and matching, along with homography transformations to project static images onto dynamic video frames. The primary task is to project images (e.g., Rick and Morty) onto video frames of a monitor or a road scene, using techniques like image warping and keypoint-based matching.
 
-# Part 1: Front View Projection (30 Marks)
+# Part 1: Front View Projection 
 - Implement the projection of a static image (e.g., Rick and Morty) onto a monitor using homography.
 - Use SuperPoint for keypoint detection and SuperGlue for keypoint matching.
 - Calculate the homography matrix and warp the image onto the monitor screen.
 - Implement projection onto a video feed of the monitor, ensuring alignment with the screen throughout the video sequence.
 
-# Task 2: Top View Projection (20 Marks)
+# Task 2: Top View Projection 
 - Capture an image of a road and use a satellite image for top-view projection.
 - Apply segmentation to isolate the road and find the homography matrix for the projection.
 - Project the road scene from a video into a top-down view using keypoint matching and homography.
